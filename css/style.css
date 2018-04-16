@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     
+    background-color: red;
+    
     /* second argument is fallback font */
     font-family: 'Oswald', sans-serif;
 }
@@ -9,13 +11,14 @@ body {
 /* Navigation bar at the top of the screen */
 nav ul {
     list-style: none;
-    background-color: gray;
+    background-color: black;
     text-align: center;
 }
 
 /* elements of navigation bar */
 nav li {
-    font-size: 1.2em;   
+    font-size: 1.2em;  
+    color: white;
     line-height: 40px;
     padding-left: 20px;
     display: inline-block;
@@ -32,6 +35,7 @@ nav li a {
 }
 
 body div {
+    color: white;
     margin: 20px;
 }
 
